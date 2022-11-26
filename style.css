@@ -248,13 +248,17 @@ body{
   }
 
 .log {
-    margin-top: 10.8rem;
+    margin-top: 5rem;
     width: 100%;
     display: grid;
     place-items: center;
     row-gap: 20px;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 80e7ecbe01bcb261e42db7b17f2b45505486a81d
 .log .register {
     display: grid;
     grid-template-columns: 1fr;
@@ -273,6 +277,7 @@ body{
     display: grid;
     grid-template-columns: 1fr;
   }
+<<<<<<< HEAD
   main {
     width: 100%;
     display: grid;
@@ -280,6 +285,9 @@ body{
     row-gap: 20px;
   }
   
+=======
+
+>>>>>>> 80e7ecbe01bcb261e42db7b17f2b45505486a81d
   main .card {
     display: flex;
     justify-content: center;
@@ -379,6 +387,7 @@ body{
     color: #1d1d1d;
     padding: 0px 5px;
   }
+<<<<<<< HEAD
   ::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
@@ -419,3 +428,5 @@ body{
     font-weight: 600;
     font-size: 0px;
   }
+=======
+>>>>>>> 80e7ecbe01bcb261e42db7b17f2b45505486a81d
