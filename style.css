@@ -4,7 +4,10 @@ body{
     background-image: url("./pexels-elijah-o\'donnell-8038906.jpg");
     background-attachment: fixed;
     background-size: cover;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4059443cf8205640c2b6009fbf168693d3c0a498
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -237,17 +240,25 @@ body{
   .link-three:hover::before {
     transform: translate(0%, 0%) scaleY(1);
   }
+<<<<<<< HEAD
   
+=======
+>>>>>>> 4059443cf8205640c2b6009fbf168693d3c0a498
 
-main {
+.log {
     margin-top: 10.8rem;
     width: 100%;
     display: grid;
     place-items: center;
     row-gap: 20px;
   }
+<<<<<<< HEAD
   
   main .register {
+=======
+
+.log .register {
+>>>>>>> 4059443cf8205640c2b6009fbf168693d3c0a498
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 20px;
@@ -256,15 +267,16 @@ main {
     color: #f5f5f5;
   }
   
-  main .register .top h3 {
+.log .register .top h3 {
     text-align: center;
     font-weight: bold;
   }
   
-  main .register .bottom {
+.log .register .bottom {
     display: grid;
     grid-template-columns: 1fr;
   }
+<<<<<<< HEAD
 
     main .card {
       display: flex;
@@ -365,3 +377,5 @@ main {
       color: #1d1d1d;
       padding: 0px 5px;
     }
+=======
+>>>>>>> 4059443cf8205640c2b6009fbf168693d3c0a498
