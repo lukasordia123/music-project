@@ -62,7 +62,6 @@ const firebaseConfig = {
         temp = element;
       }
     });
-    console.log(temp);
     return temp;
   }
   
@@ -72,4 +71,3 @@ const firebaseConfig = {
       .ref(REF + "/" + ID)
       .set(data);
   }
-  
