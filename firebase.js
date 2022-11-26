@@ -1,13 +1,13 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyDcaK4eNPnV-dLGO1gOq76C0A_clg1ie4M",
-    authDomain: "travelmore-e65d4.firebaseapp.com",
-    databaseURL: "https://travelmore-e65d4-default-rtdb.firebaseio.com",
-    projectId: "travelmore-e65d4",
-    storageBucket: "travelmore-e65d4.appspot.com",
-    messagingSenderId: "713002452960",
-    appId: "1:713002452960:web:333c7a77944bc5253d4d85",
-    measurementId: "G-F4LKV57Y58",
-  };
+  apiKey: "AIzaSyCwAIow-OJbs6GaGzPXyAOy68FJZPQDx5Y",
+  authDomain: "music-project-9a9c9.firebaseapp.com",
+  databaseURL: "https://music-project-9a9c9-default-rtdb.firebaseio.com",
+  projectId: "music-project-9a9c9",
+  storageBucket: "music-project-9a9c9.appspot.com",
+  messagingSenderId: "855192458682",
+  appId: "1:855192458682:web:ee2de8ddeeb692035bb983",
+  measurementId: "G-N5CQB5D8S1"
+};
   
   firebase.initializeApp(firebaseConfig);
   
