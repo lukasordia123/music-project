@@ -31,3 +31,6 @@ submitButton.addEventListener("click", () => {
   });
   displayAlert("შესრულდა", "წარმატებით დაემატა მომხარებელი", "success");
 });
+setTimeout(() => {
+  location.href= "login.html"
+},1500 )

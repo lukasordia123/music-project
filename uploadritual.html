@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="shortcut icon" href="./img/Logo.png" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+    crossorigin="anonymous"
+  />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="progress">
+    <span id="progress-value"></span>
+  </div>
+    <header>
+        <div class="body">
+            <div class="background-one">
+                <div class="link-container">
+                  <a class="link-one" href="./index.html">Home</a>
+                </div>
+              </div>
+              <div class="background-two link-container">
+                <a class="link-two" href="#">Upload Ritual</a>
+              </div>
+              <div class="background-three link-container">
+                <a class="link-three" href="./signUp.html">Register</a>
+              </div>
+              <div class="background-one">
+                <div class="link-container">
+                  <a class="link-one" href="./logIn.html">Log in</a>
+                </div>
+              </div>
+        </div>
+    </header>
+    <main>
+        <section class="inputbox">
+          <label for="inputone">სათაური</label>
+          <input type="text " class="inputone" />
+          <label for="inputtwo">ლოკაცია</label>
+          <input type="text" class="inputtwo" />
+          <label for="inputthree">საძიებო მისამართი</label>
+          <input type="text" class="inputthree" />
+          <label for="form-control inputfour">ტექსტი(შინაარსი)</label>
+          <div class="input-group">
+            <textarea
+              class="form-control inputfour"
+              aria-label="With textarea"
+            ></textarea>
+          </div>
+          <div class="input-group">
+            <input
+              type="file"
+              class="form-control inputfive"
+              id="inputGroupFile04"
+              aria-describedby="inputGroupFileAddon04"
+              aria-label="Upload"
+            />
+          </div>
+          <div class="btn">
+            <button class="Btn">Uploud</button>
+          </div>
+        </section>
+      </main>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./firebase.js"></script>
+    <script src="./uploadhotel.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
