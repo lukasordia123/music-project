@@ -30,7 +30,7 @@ submitButton.addEventListener("click", () => {
     password: password,
   });
   displayAlert("შესრულდა", "წარმატებით დაემატა მომხარებელი", "success");
+setTimeout(() => {
+  location.href= "login.html"
+},1500 )
 });
-// setTimeout(() => {
-//   location.href= "login.html"
-// },1500 )
