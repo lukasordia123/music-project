@@ -1,13 +1,14 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyCwAIow-OJbs6GaGzPXyAOy68FJZPQDx5Y",
-  authDomain: "music-project-9a9c9.firebaseapp.com",
-  databaseURL: "https://music-project-9a9c9-default-rtdb.firebaseio.com",
-  projectId: "music-project-9a9c9",
-  storageBucket: "music-project-9a9c9.appspot.com",
-  messagingSenderId: "855192458682",
-  appId: "1:855192458682:web:ee2de8ddeeb692035bb983",
-  measurementId: "G-N5CQB5D8S1"
+  apiKey: "AIzaSyDRbXgHz2kWYE-4kug_kuSnEm6PaQJ7O_M",
+  authDomain: "music-project-71f63.firebaseapp.com",
+  databaseURL: "https://music-project-71f63-default-rtdb.firebaseio.com",
+  projectId: "music-project-71f63",
+  storageBucket: "music-project-71f63.appspot.com",
+  messagingSenderId: "739716797365",
+  appId: "1:739716797365:web:920f8d7835fe13dd93fffc",
+  measurementId: "G-BV00R2HQLJ"
 };
+
   
   firebase.initializeApp(firebaseConfig);
   
